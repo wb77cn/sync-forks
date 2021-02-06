@@ -16,8 +16,8 @@ jobs:
       with:
         github_token: ${{ secrets.REPO_TOKEN }}
         upstream_repository: garypang13/OpenWrt
-        upstream_branch: main
+        upstream_branch: master
         target_repository: wb77cn/OpenWrt       #修改成你的帐号/仓库名字
-        target_branch: main                                #你仓库的分支
+        target_branch: master                                #你仓库的分支
         force: true
         tags: false
